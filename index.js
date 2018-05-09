@@ -7,8 +7,8 @@
  */
 module.exports = function(timeInSecond) {
 
-  var hours = Math.floor(num/60);
-  var minutes = num % 60;
+  var hours = Math.floor(timeInSecond/60);
+  var minutes = timeInSecond % 60;
   var str = hours + ":" + minutes;
   return str;
 
